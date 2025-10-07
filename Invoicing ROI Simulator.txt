@@ -1,0 +1,7 @@
+Invoicing ROI Simulator
+
+The Invoicing ROI Simulator is a lightweight full-stack web application designed to help businesses understand the financial benefits of switching from manual to automated invoicing. It allows users to calculate monthly savings, cumulative savings, payback period, and ROI over a customizable time horizon using simple business metrics such as invoice volume, staff size, hourly wages, and error costs. The application ensures that automation outcomes always appear favorable through internal server-side constants.
+
+The application follows a client–server architecture. The frontend, built with React.js, provides a responsive single-page interface for inputting data, running simulations, and viewing results instantly. The backend, developed with Node.js and Express.js, handles all ROI calculations, scenario management (CRUD), and report generation. A lightweight SQLite database stores user scenarios and input data. Reports can be generated in PDF or HTML format and are gated by email for lead capture.
+
+Key features include a real-time simulation engine, scenario saving and retrieval, live results visualization, and email-gated downloadable reports. The development plan prioritizes backend setup first, followed by frontend integration, scenario management, and report generation. Deployment will use Vercel for the frontend and Render for the backend, with optional local testing via ngrok. The final deliverables include a working prototype, source code on GitHub, and full documentation.
